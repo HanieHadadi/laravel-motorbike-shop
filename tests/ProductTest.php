@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ProductTest extends TestCase
 {
-    use DatabaseMigrations;
+
 
     /**
      * @var Int

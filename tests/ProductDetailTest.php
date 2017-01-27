@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ProductDetailTest extends TestCase
 {
-    use DatabaseMigrations;
+
 
     public  function testRegisterNewDetail(){
         $this->call('POST', '/detail',array('title'=>'tested_detail'));

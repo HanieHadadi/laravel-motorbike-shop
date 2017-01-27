@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class UserTest extends TestCase
 {
-    use DatabaseMigrations;
+
 
     public function testisAdmin(){
          $user =  App\User::find(1);

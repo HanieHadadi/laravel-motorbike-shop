@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ProductDetailValueTest extends TestCase
 {
-    use DatabaseMigrations;
+
 
     public  function testRegisterNewValue(){
         $this->call('POST', '/detailValue',array('value'=>'tested_value','detail'=>1));

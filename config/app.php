@@ -165,7 +165,8 @@ return [
         Krlove\EloquentModelGenerator\Provider\GeneratorServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Vinkla\Hashids\HashidsServiceProvider::class,
-        Nwidart\DbExporter\DbExportHandlerServiceProvider::class,
+        Orangehill\Iseed\IseedServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
@@ -231,7 +232,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'Hashids' => Vinkla\Hashids\Facades\Hashids::class,
-        'DbExporter'=>Nwidart\DbExporter\DbExportHandlerServiceProvider::class,
+
     ],
 
 ];

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "67584f167e934f8126f5c2104741dc17",
-    "content-hash": "27a6ee23fb11d648a0f7ae4a7ccd3f47",
+    "hash": "7a553c301bfcd018a0a5d0e1014f17b6",
+    "content-hash": "422f55198e54660e1806879b35997dfa",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1323,51 +1323,54 @@
             "time": "2016-12-06 11:30:35"
         },
         {
-            "name": "nwidart/db-exporter",
-            "version": "1.1",
+            "name": "orangehill/iseed",
+            "version": "v2.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nWidart/DbExporter.git",
-                "reference": "ce8da8782ed1e478a761ec51cd4dedeff44ac654"
+                "url": "https://github.com/orangehill/iseed.git",
+                "reference": "383608d85bdabac53f293b3a63059ca82bad4eec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nWidart/DbExporter/zipball/ce8da8782ed1e478a761ec51cd4dedeff44ac654",
-                "reference": "ce8da8782ed1e478a761ec51cd4dedeff44ac654",
+                "url": "https://api.github.com/repos/orangehill/iseed/zipball/383608d85bdabac53f293b3a63059ca82bad4eec",
+                "reference": "383608d85bdabac53f293b3a63059ca82bad4eec",
                 "shasum": ""
             },
             "require": {
-                "illuminate/support": "4.*|5.*",
-                "php": ">=5.3.0"
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "illuminate/filesystem": "5.x",
+                "laravel/framework": "~5.3.8",
+                "mockery/mockery": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Nwidart\\DbExporter": "src/"
-                }
+                    "Orangehill\\Iseed": "src/"
+                },
+                "classmap": [
+                    "src/Orangehill/Iseed/Exceptions.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD-2-Clause"
             ],
             "authors": [
                 {
-                    "name": "Nicolas Widart",
-                    "email": "n.widart@gmail.com"
+                    "name": "Tihomir Opacic",
+                    "email": "tihomir.opacic@orangehilldev.com"
                 }
             ],
-            "description": "Export your database quickly and easily as a Laravel Migration and all the data as a Seeder class.",
+            "description": "Generate a new Laravel database seed file based on data from the existing database table.",
             "keywords": [
                 "artisan",
-                "command",
-                "database",
-                "export",
+                "generators",
                 "laravel",
-                "migrations",
-                "php",
                 "seed"
             ],
-            "time": "2015-04-24 05:56:41"
+            "time": "2016-12-22 10:12:20"
         },
         {
             "name": "paragonie/random_compat",
