@@ -22,4 +22,4 @@ $ php artisan db:seed  --class=UsersTableSeeder
 ``
 
 
-after run these command your project is ready to use.
+after run these commands your project is ready to use.
