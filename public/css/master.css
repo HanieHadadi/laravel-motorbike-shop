@@ -1,0 +1,126 @@
+@font-face {
+    font-family:'B Yekan Regular';
+    src:url(../fonts/Yekan.woff);
+    font-weight: normal;
+}
+body{
+    font-family:'B Yekan Regular';
+    text-align: right;
+    font-size: 12px;
+    direction: rtl;
+}
+.right-cat{
+    background-color: #fff;
+    min-height: 100px;
+    padding: 15px;
+}
+.left-cat{
+    min-height: 100px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.box-img{
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    height: 190px;
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+}
+.img-box{
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+    direction: rtl;
+    border: 1px solid #ececec;
+    transition: all 0.3s;
+    width: 100%;
+    background-size:cover;
+    background-position:top center;
+    background-repeat:no-repeat;
+    
+}
+.img-box:hover{
+    box-shadow: 0 0 15px #ccc;
+}
+.img-box p{
+    padding-right: 15px;
+    font-size: 13px;
+    color: #666;
+}
+.img-box .gray{
+    font-size: 10px;
+    padding-right: 15px;
+}
+.img-box .orange{
+    float: left;
+    padding-left: 15px;
+}
+.img-box img{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 190px;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+}
+.onoffswitch {
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    float: left;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 1px solid #CCCCCC; border-radius: 20px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block;
+    width: 24px;
+    margin: 0px;
+    background: #FFFFFF;
+    position: absolute;
+    top: -2px;
+    bottom: 0;
+    right: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+    height: 24px; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #F5F8FA;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #ccc;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: -2px; 
+}
+#switch-box,#sarfasl-checkbox,#softw-checkbox{
+    padding-bottom: 15px;
+}
+input[type="checkbox"], input[type="radio"]{
+    margin-left: 5px;
+}
+.top-margin{
+    margin-top: 10px;
+}
+.height-m{
+    max-height:500px;
+    overflow: hidden;
+}
+.red-star{
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
